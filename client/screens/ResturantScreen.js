@@ -1,4 +1,4 @@
-import { View, Text, StatusBar, ScrollView, Image, TouchableOpacity } from 'react-native'
+import { View, Text, ScrollView, Image, TouchableOpacity } from 'react-native'
 import React, { useEffect, useLayoutEffect } from 'react'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { urlFor } from '../sanity';
@@ -70,7 +70,7 @@ export default function ResturantScreen() {
                                 source={require('../assets/images/fullStar.png')} 
                                 className="h-4 w-4" />
                             <Text className="text-xs">
-                                <Text className="text-green-700">{rating}</Text>
+                                <Text className="text-blue-700">{rating}</Text>
                                 <Text className="text-gray-700"> (4.6k review)</Text> · <Text className="font-semibold text-gray-700">{type}</Text>
                             </Text>
                         </View>
