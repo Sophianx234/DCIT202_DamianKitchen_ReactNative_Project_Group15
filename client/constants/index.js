@@ -83,7 +83,7 @@ export const featured = {
             lat: 38.2145602,
             address: '434 second street',
             stars: 4,
-            reviews: '4.4k',
+            reviews: '4.3k',
             category: 'Fast Food',
             dishes: [
                 {

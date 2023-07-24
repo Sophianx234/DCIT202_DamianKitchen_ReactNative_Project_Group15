@@ -70,7 +70,7 @@ export default function ResturantScreen() {
                                 source={require('../assets/images/fullStar.png')} 
                                 className="h-4 w-4" />
                             <Text className="text-xs">
-                                <Text className="text-green-700">{rating}</Text>
+                                <Text className="text-blue-700">{rating}</Text>
                                 <Text className="text-gray-700"> (4.6k review)</Text> · <Text className="font-semibold text-gray-700">{type}</Text>
                             </Text>
                         </View>
