@@ -8,15 +8,10 @@ import { themeColors } from '../theme'
 
 export default function FeatureRow({id, title, description, resturants}) {
 
-  // const [resturants, setResturants] = useState([]);
 
   useEffect(() => {
-    // getFeaturedResturantById(id).then(data=>{
-    //   // console.log('got data: ',data);
-    //   setResturants(data?.resturants);
-    // })
+
   }, [id])
-  // console.log(resturants);
   
   return (
     <View>
